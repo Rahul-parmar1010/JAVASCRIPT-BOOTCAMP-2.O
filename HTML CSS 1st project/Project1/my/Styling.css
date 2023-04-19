@@ -1,0 +1,40 @@
+body{
+    border: 2px solid black;
+    height: 700px;
+    width: 1435px;
+}
+.container{
+    border: 2px solid black;
+    height: 70px;
+    width: 1413px;
+    margin: 10px;
+    padding:10px;
+    font-size: larger;
+    
+    }
+nav {
+    display: flex;
+    justify-content: first baseline;
+}
+
+.img {
+    position: absolute;
+}
+
+ul {
+    position: relative;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    left:50px;
+}
+.button-group{
+    position: relative;
+        display: block;
+        display: flex;
+      left:600px;
+      height: 40px;
+      width:200px;
+}

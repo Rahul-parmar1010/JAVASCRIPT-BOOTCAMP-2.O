@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Search */
+}
+body {
+
+    max-width: 1440px;
+    background-color:rgb(255, 255, 252);
+    margin: auto;
+    /* Auto */
+    overflow:hidden;
+
+}
+nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   margin-right: 9%;
+}
+nav ul{
+    display: flex;
+  align-items: center;
+}
+nav ul li{list-style: none;
+    margin: 40px;
+    font-weight: 200;
+    font-size: x-large;
+}
+nav ul li:first-child{
+    color: black;
+    font-weight: 900;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    }
+button{
+    font-size:x-large;
+   border-radius:14px;
+   padding: 5% 60%;
+   margin: 10px;
+   border: 3px solid;
+   background-color: rgb(255, 255, 252);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.square{
+    position: absolute;
+    top:55%;
+    left: 24%;
+}
+div img{
+    position:relative;
+    padding:4% 0%;
+}
+.star{
+    position: absolute;
+    right: 15%;
+    top:20%;
+}
+.star1 {
+    position: absolute;
+    left: 50%;
+  bottom:7%;
+ 
+}
+
+.globe{
+    position:absolute;
+    right:44%;
+
+}
+.hero-container-right{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    right: 13%;
+    top: 30%;
+  
+}
+.hero-container-right h1{
+   font-size:72px;
+   font-weight: 800;
+
+}
+.hero-container-right p {
+    position:relative;
+    font-size: 20px;
+    padding: 12%;
+    width: 90%;
+    left:3%;
+    color: grey;
+    font-weight: 600;
+}
+.button-email {
+    position: absolute;
+   padding: 0.5% 3%;
+background-color: #ffffff;
+left: 25%;
+color:gray;
+font-weight: 200;
+}
+.button-join {
+    position:absolute;
+        padding:0.5% 2%;
+        right: 25%;
+        background-color: black;
+        color: #ffffff;
+}
+.contact-heading{
+    position: absolute;
+    margin-top: 20%;
+    font-size: x-large;
+    right: 40%;
+    color: grey;
+
+}
+.icons{
+    position: absolute;
+    margin-top: 25%;
+    right: 35%;
+}
+
+
+
+
+
